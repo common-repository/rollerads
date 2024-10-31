@@ -1,0 +1,72 @@
+#wpcontent {
+    padding-left: 24px;
+}
+
+.rollerads-card {
+    margin-top: 24px;
+    margin-right: 24px;
+    background: #FFFFFF;
+    font-size: 14px;
+}
+
+.rollerads-card .header {
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    padding: 24px 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rollerads-card .header .site-link {
+    color: #3D65FD;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.rollerads-card .header .site-link img {
+    padding-right: 5px;
+}
+
+.rollerads-card .body {
+    border: 1px solid #E5E5E5;
+    padding: 24px;
+    height: calc(100vh - 200px);
+}
+
+.rollerads-card .body .form {
+    min-width: 340px;
+    width: fit-content;
+}
+
+.rollerads-card .body .form .form-title {
+    font-weight: 300;
+    line-height: 20px;
+    color: #5F5F5F;
+    padding-bottom: 20px;
+}
+
+.rollerads-card .body .form .register-step-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 14px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.rollerads-card .body .form .register-step-card a:not(.button) {
+    color: #23282D;
+}
+
+.rollerads-card .body .form .button {
+    background: #3D65FD;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px;
+}
